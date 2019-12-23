@@ -28,3 +28,12 @@ The way it works is described briefly below :
 
 Integral images calculation reduced the computations :    
 
+In below figure, haar works by calculating the difference between sum of black and sum white shades and let's say here it comes out to be something like :   
+
+![p4.png](/Images/p4.JPG)        
+![p5.jpg](/Images/p5.JPG)         
+
+The closer this difference is to "1", then most probably a haar feature has been detected !     
+
+Integral images :    
+![p6.jpg](/Images/p6.JPG)         
