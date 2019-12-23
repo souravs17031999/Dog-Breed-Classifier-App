@@ -4,4 +4,10 @@
 learning and understanding of Convolutional Neural Networks    
 
 # Pipeline for Project :   
-![p1.png](/Images/p1.png)
+* First thing in this pipeline is recognition algorithm for both humans and dogs and then classify it by giving out the exact name of breed.    
+![p1.png](/Images/p1.png)   
+
+# Human Face detector :    
+```
+We can try 
+```
