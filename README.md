@@ -28,3 +28,21 @@ The way it works is described briefly below :
 
 Integral images calculation reduced the computations :    
 
+In below figure, haar works by calculating the difference between sum of black and sum white shades and let's say here it comes out to be something like :   
+&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; haar feature &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;real images      
+            
+![p4.png](/Images/p4.png)        
+![p5.jpg](/Images/p5.JPG)         
+
+The closer this difference is to "1", then most probably a haar feature has been detected !     
+
+Integral images :    
+![p6.jpg](/Images/p6.JPG)         
+
+* [HOG](https://github.com/opencv/opencv/blob/master/data/hogcascades/hogcascade_pedestrians.xml)
+Histogram of oriented gradients is calculated by taking difference in pixel intensities for every block of pixel in a 64 * 64 window, similar to sliding window over the entire image.    
+This is based on the fact that, certain regions of our face have slightly darker shades over the other and thus there becomes gradient oientation of vector in some localized portions of our face.
+
+Like in this image, we can see the gradient magnitude and gradient direction:      
+
+![p7.jpg](/Images/p7.JPG)         
