@@ -4,4 +4,4 @@
 learning and understanding of Convolutional Neural Networks    
 
 # Pipeline for Project :   
-[!dataphotop1](p1.png)
+![p1.png](/Images/p1.png)
