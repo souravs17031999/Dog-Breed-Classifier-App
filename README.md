@@ -15,7 +15,16 @@ I have tried HOG, LBP, HAAR etc..
 ```
 * [HAAR](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml):  
 This algorithm is also called voila jones algorithm based on HAAR like wavelets.
-HAAR wavelets are sequence of rescaled square shaped functions which is explained in detailed way [here](https://en.wikipedia.org/wiki/Haar_wavelet).
-![p2.png](/Images/p2.JPG)   
-A target window of some determined size is moved over the entire input image for all possible locations to calculate HAAR like features and since it was a very high computational task, therefore alternative method using integral image was designed.
+HAAR wavelets are sequence of rescaled square shaped functions which is explained in detailed way [here](https://en.wikipedia.org/wiki/Haar_wavelet).     
+
+![p3.png](/Images/p3.png)            
+
+HAAR like features for detection :      
+
+![p2.png](/Images/p2.JPG)        
+
+A target window of some determined size is moved over the entire input image for all possible locations to calculate HAAR like features and since it was a very high computational task, therefore alternative method using *integral images* was designed.
 The way it works is described briefly below : 
+
+Integral images calculation reduced the computations :    
+
