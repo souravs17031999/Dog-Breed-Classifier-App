@@ -1,0 +1,534 @@
+[
+  {
+    "index": 0,
+    "class_name": "Affenpinscher"
+  },
+  {
+    "index": 1,
+    "class_name": "Afghan_houn"
+  },
+  {
+    "index": 2,
+    "class_name": "Airedale_terrier"
+  },
+  {
+    "index": 3,
+    "class_name": "Ak"
+  },
+  {
+    "index": 4,
+    "class_name": "Alaskan_malamu"
+  },
+  {
+    "index": 5,
+    "class_name": "American_esk"
+  },
+  {
+    "index": 6,
+    "class_name": "American_foxhoun"
+  },
+  {
+    "index": 7,
+    "class_name": "American_staffordshire_terrier"
+  },
+  {
+    "index": 8,
+    "class_name": "American_water_spaniel"
+  },
+  {
+    "index": 9,
+    "class_name": "Anatolian_shepher"
+  },
+  {
+    "index": 10,
+    "class_name": "Australian_cattl"
+  },
+  {
+    "index": 11,
+    "class_name": "Australian_shepher"
+  },
+  {
+    "index": 12,
+    "class_name": "Australian_terrier"
+  },
+  {
+    "index": 13,
+    "class_name": "Basenj"
+  },
+  {
+    "index": 14,
+    "class_name": "Basset_houn"
+  },
+  {
+    "index": 15,
+    "class_name": "Beagl"
+  },
+  {
+    "index": 16,
+    "class_name": "Bearded_coll"
+  },
+  {
+    "index": 17,
+    "class_name": "Beauceron"
+  },
+  {
+    "index": 18,
+    "class_name": "Bedlington_terrier"
+  },
+  {
+    "index": 19,
+    "class_name": "Belgian_malin"
+  },
+  {
+    "index": 20,
+    "class_name": "Belgian_sheep"
+  },
+  {
+    "index": 21,
+    "class_name": "Belgian_tervuren"
+  },
+  {
+    "index": 22,
+    "class_name": "Bernese_mountain"
+  },
+  {
+    "index": 23,
+    "class_name": "Bichon_fr"
+  },
+  {
+    "index": 24,
+    "class_name": "Black_and_tan_coonhoun"
+  },
+  {
+    "index": 25,
+    "class_name": "Black_russian_terrier"
+  },
+  {
+    "index": 26,
+    "class_name": "Bloodhoun"
+  },
+  {
+    "index": 27,
+    "class_name": "Bluetick_coonhoun"
+  },
+  {
+    "index": 28,
+    "class_name": "Border_coll"
+  },
+  {
+    "index": 29,
+    "class_name": "Border_terrier"
+  },
+  {
+    "index": 30,
+    "class_name": "Borz"
+  },
+  {
+    "index": 31,
+    "class_name": "Boston_terrier"
+  },
+  {
+    "index": 32,
+    "class_name": "Bouvier_des_flandr"
+  },
+  {
+    "index": 33,
+    "class_name": "Boxer"
+  },
+  {
+    "index": 34,
+    "class_name": "Boykin_spaniel"
+  },
+  {
+    "index": 35,
+    "class_name": "Briar"
+  },
+  {
+    "index": 36,
+    "class_name": "Brittany"
+  },
+  {
+    "index": 37,
+    "class_name": "Brussels_griffon"
+  },
+  {
+    "index": 38,
+    "class_name": "Bull"
+  },
+  {
+    "index": 39,
+    "class_name": "Bull_terrier"
+  },
+  {
+    "index": 40,
+    "class_name": "Bullmastiff"
+  },
+  {
+    "index": 41,
+    "class_name": "Cairn_terrier"
+  },
+  {
+    "index": 42,
+    "class_name": "Canaan"
+  },
+  {
+    "index": 43,
+    "class_name": "Cane_cor"
+  },
+  {
+    "index": 44,
+    "class_name": "Cardigan_welsh_cor"
+  },
+  {
+    "index": 45,
+    "class_name": "Cavalier_king_charles_spaniel"
+  },
+  {
+    "index": 46,
+    "class_name": "Chesapeake_bay_retriever"
+  },
+  {
+    "index": 47,
+    "class_name": "Chihuahu"
+  },
+  {
+    "index": 48,
+    "class_name": "Chinese_cr"
+  },
+  {
+    "index": 49,
+    "class_name": "Chinese_shar-p"
+  },
+  {
+    "index": 50,
+    "class_name": "Chow_chow"
+  },
+  {
+    "index": 51,
+    "class_name": "Clumber_spaniel"
+  },
+  {
+    "index": 52,
+    "class_name": "Cocker_spaniel"
+  },
+  {
+    "index": 53,
+    "class_name": "Coll"
+  },
+  {
+    "index": 54,
+    "class_name": "Curly-coated_retriever"
+  },
+  {
+    "index": 55,
+    "class_name": "Dachshun"
+  },
+  {
+    "index": 56,
+    "class_name": "Dalmatian"
+  },
+  {
+    "index": 57,
+    "class_name": "Dandie_dinmont_terrier"
+  },
+  {
+    "index": 58,
+    "class_name": "Doberman_pinscher"
+  },
+  {
+    "index": 59,
+    "class_name": "Dogue_de_bordeaux"
+  },
+  {
+    "index": 60,
+    "class_name": "English_cocker_spaniel"
+  },
+  {
+    "index": 61,
+    "class_name": "English_setter"
+  },
+  {
+    "index": 62,
+    "class_name": "English_springer_spaniel"
+  },
+  {
+    "index": 63,
+    "class_name": "English_toy_spaniel"
+  },
+  {
+    "index": 64,
+    "class_name": "Entlebucher_mountain"
+  },
+  {
+    "index": 65,
+    "class_name": "Field_spaniel"
+  },
+  {
+    "index": 66,
+    "class_name": "Finnish_spitz"
+  },
+  {
+    "index": 67,
+    "class_name": "Flat-coated_retriever"
+  },
+  {
+    "index": 68,
+    "class_name": "French_bull"
+  },
+  {
+    "index": 69,
+    "class_name": "German_pinscher"
+  },
+  {
+    "index": 70,
+    "class_name": "German_shepher"
+  },
+  {
+    "index": 71,
+    "class_name": "German_shorthaired_pointer"
+  },
+  {
+    "index": 72,
+    "class_name": "German_wirehaired_pointer"
+  },
+  {
+    "index": 73,
+    "class_name": "Giant_schnauzer"
+  },
+  {
+    "index": 74,
+    "class_name": "Glen_of_imaal_terrier"
+  },
+  {
+    "index": 75,
+    "class_name": "Golden_retriever"
+  },
+  {
+    "index": 76,
+    "class_name": "Gordon_setter"
+  },
+  {
+    "index": 77,
+    "class_name": "Great_dan"
+  },
+  {
+    "index": 78,
+    "class_name": "Great_pyren"
+  },
+  {
+    "index": 79,
+    "class_name": "Greater_swiss_mountain"
+  },
+  {
+    "index": 80,
+    "class_name": "Greyhoun"
+  },
+  {
+    "index": 81,
+    "class_name": "Havan"
+  },
+  {
+    "index": 82,
+    "class_name": "Ibizan_houn"
+  },
+  {
+    "index": 83,
+    "class_name": "Icelandic_sheep"
+  },
+  {
+    "index": 84,
+    "class_name": "Irish_red_and_white_setter"
+  },
+  {
+    "index": 85,
+    "class_name": "Irish_setter"
+  },
+  {
+    "index": 86,
+    "class_name": "Irish_terrier"
+  },
+  {
+    "index": 87,
+    "class_name": "Irish_water_spaniel"
+  },
+  {
+    "index": 88,
+    "class_name": "Irish_wolfhoun"
+  },
+  {
+    "index": 89,
+    "class_name": "Italian_greyhoun"
+  },
+  {
+    "index": 90,
+    "class_name": "Japanese_chin"
+  },
+  {
+    "index": 91,
+    "class_name": "Keeshon"
+  },
+  {
+    "index": 92,
+    "class_name": "Kerry_blue_terrier"
+  },
+  {
+    "index": 93,
+    "class_name": "Komondor"
+  },
+  {
+    "index": 94,
+    "class_name": "Kuvasz"
+  },
+  {
+    "index": 95,
+    "class_name": "Labrador_retriever"
+  },
+  {
+    "index": 96,
+    "class_name": "Lakeland_terrier"
+  },
+  {
+    "index": 97,
+    "class_name": "Leonberger"
+  },
+  {
+    "index": 98,
+    "class_name": "Lhasa_ap"
+  },
+  {
+    "index": 99,
+    "class_name": "Lowchen"
+  },
+  {
+    "index": 100,
+    "class_name": "Mal"
+  },
+  {
+    "index": 101,
+    "class_name": "Manchester_terrier"
+  },
+  {
+    "index": 102,
+    "class_name": "Mastiff"
+  },
+  {
+    "index": 103,
+    "class_name": "Miniature_schnauzer"
+  },
+  {
+    "index": 104,
+    "class_name": "Neapolitan_mastiff"
+  },
+  {
+    "index": 105,
+    "class_name": "Newfoundlan"
+  },
+  {
+    "index": 106,
+    "class_name": "Norfolk_terrier"
+  },
+  {
+    "index": 107,
+    "class_name": "Norwegian_buhun"
+  },
+  {
+    "index": 108,
+    "class_name": "Norwegian_elkhoun"
+  },
+  {
+    "index": 109,
+    "class_name": "Norwegian_lundehun"
+  },
+  {
+    "index": 110,
+    "class_name": "Norwich_terrier"
+  },
+  {
+    "index": 111,
+    "class_name": "Nova_scotia_duck_tolling_retriever"
+  },
+  {
+    "index": 112,
+    "class_name": "Old_english_sheep"
+  },
+  {
+    "index": 113,
+    "class_name": "Otterhoun"
+  },
+  {
+    "index": 114,
+    "class_name": "Papillon"
+  },
+  {
+    "index": 115,
+    "class_name": "Parson_russell_terrier"
+  },
+  {
+    "index": 116,
+    "class_name": "Pekin"
+  },
+  {
+    "index": 117,
+    "class_name": "Pembroke_welsh_cor"
+  },
+  {
+    "index": 118,
+    "class_name": "Petit_basset_griffon_vendeen"
+  },
+  {
+    "index": 119,
+    "class_name": "Pharaoh_houn"
+  },
+  {
+    "index": 120,
+    "class_name": "Pl"
+  },
+  {
+    "index": 121,
+    "class_name": "Pointer"
+  },
+  {
+    "index": 122,
+    "class_name": "Pomeranian"
+  },
+  {
+    "index": 123,
+    "class_name": "Poodl"
+  },
+  {
+    "index": 124,
+    "class_name": "Portuguese_water"
+  },
+  {
+    "index": 125,
+    "class_name": "Saint_bernar"
+  },
+  {
+    "index": 126,
+    "class_name": "Silky_terrier"
+  },
+  {
+    "index": 127,
+    "class_name": "Smooth_fox_terrier"
+  },
+  {
+    "index": 128,
+    "class_name": "Tibetan_mastiff"
+  },
+  {
+    "index": 129,
+    "class_name": "Welsh_springer_spaniel"
+  },
+  {
+    "index": 130,
+    "class_name": "Wirehaired_pointing_griffon"
+  },
+  {
+    "index": 131,
+    "class_name": "Xoloitzcuintl"
+  },
+  {
+    "index": 132,
+    "class_name": "Yorkshire_terrier"
+  }
+]
