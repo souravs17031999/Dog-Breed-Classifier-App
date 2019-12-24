@@ -11,7 +11,7 @@ learning and understanding of Convolutional Neural Networks
 # Human Face detector :    
 ```
 We can try different pretrained algorithms by OpenCV.   
-I have tried HOG, LBP, HAAR etc..   
+I have tried HOG, LBP, HAAR etc..   or any other deep learning based pre trained models.      
 ```
 * [HAAR](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml):  
 This algorithm is also called voila jones algorithm based on HAAR like wavelets.
@@ -39,7 +39,8 @@ The closer this difference is to "1", then most probably a haar feature has been
 Integral images :    
 ![p6.jpg](/Images/p6.JPG)         
 
-* [HOG](https://github.com/opencv/opencv/blob/master/data/hogcascades/hogcascade_pedestrians.xml)     
+* [HOG](https://github.com/opencv/opencv/blob/master/data/hogcascades/hogcascade_pedestrians.xml):       
+
 Histogram of oriented gradients is calculated by taking difference in pixel intensities for every block of pixel in a 64 * 64 window, similar to sliding window over the entire image.    
 This is based on the fact that, certain regions of our face have slightly darker shades over the other and thus there becomes gradient oientation of vector in some localized portions of our face.
 
@@ -53,7 +54,8 @@ Now calculating for all pixel blocks:
 
 For more detailed explanation, [click here](https://medium.com/analytics-vidhya/a-take-on-h-o-g-feature-descriptor-e839ebba1e52).
 
-* LBP:     
+* [LBP](https://github.com/opencv/opencv/blob/master/data/lbpcascades/lbpcascade_frontalface.xml):             
+
 Local binary patterns is a algorithm for feature detection based on local representation of texture.      
 How it's calculated ? Let's see...       
 For every block (in grayscale) , we select a center pixel value and construct a threshold by indicating 1 if value in center is greater than or equal to neighbouring one otherwise zero and then construct a 1 -D array by warping around either in clockwise or anticlockwise direction.    
@@ -63,4 +65,22 @@ For every block (in grayscale) , we select a center pixel value and construct a 
 
 Then, a histogram of 256 bin is constructed from the final output lbp pattern image.   
 
-![p10.png](/Images/p10.png)            
+![p10.png](/Images/p10.png)                
+
+# Dog Face detector :       
+
+* Here also, we can use same above detectors.        
+
+# CNN classification :           
+
+* Now, that we have recognized that if image contains a dog face, a human face or none of them.    
+It's time for training our own neural network for classifiying the breed of dog if image contains dog (or most resembled label for human !)   
+So, let's get started.....     
+
+```
+We can this here using two different approaches :    
+* Constructing CNN from scratch    
+* Using pre trained CNN models 
+```    
+* CNN from scratch and it's overview :      
+
