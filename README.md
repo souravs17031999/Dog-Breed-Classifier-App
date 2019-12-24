@@ -71,6 +71,9 @@ Then, a histogram of 256 bin is constructed from the final output lbp pattern im
 
 * Here also, we can use same above detectors.        
 
+### Some examples :     
+![p11.JPG](/Images/p11.JPG)                      
+
 # CNN classification :           
 
 * Now, that we have recognized that if image contains a dog face, a human face or none of them.    
@@ -84,3 +87,21 @@ We can this here using two different approaches :
 ```    
 * CNN from scratch and it's overview :      
 
+```
+  (conv1): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))        
+  (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))      
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))     
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)         
+  (fc1): Linear(in_features=50176, out_features=500, bias=True)     
+  (fc2): Linear(in_features=500, out_features=133, bias=True)      
+  (dropout): Dropout(p=0.5, inplace=False)       
+```
+
+* Pre trained ResNet50 model :    
+(Reasons of choosing this model has been included in the notebook itself)     
+* This architechture contains **_(conv1)_** as first convolutional layer containing in channels as 3 which is due to **_RGB input tensor_** , **_(bn1)_** as batch normalization layer, followed by **_ReLU_** and **_MaxPooling_** and then it contains 4 main layers named **_layer1_**, **_layer2_**, **_layer3_** and **_layer4_** which contains further sub layers of convolution followed by **_batchnorm_** followed by **_relu_** followed by **_maxpooling_** , and then finally fc.   
+* **ReLU** activation is used as it's the most proven activation function for classification problems as it introduces good and right amount of non linearity with less chances of vanishing gradient problem !        
+* **Batch normalization** helped in making the network more stable and learning faster thereby faster convergence.     
+* **Maxpooling** helped in downsampling high number of parameters created by producing higher dimensional feature maps after convolution operation and thus selecting only relevant features from the high dimensioned feature matrix.       
+* Then i replaced last layer of this architechture by fully connected layer containing two sub linear layers as follows :   ```Linear(in_features=2048, out_features=512) Linear(in_features=512, out_features=133)```   
+with ReLU activations between the linears.     
