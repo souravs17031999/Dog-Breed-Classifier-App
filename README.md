@@ -106,6 +106,11 @@ We can this here using two different approaches :
 * Then i replaced last layer of this architechture by fully connected layer containing two sub linear layers as follows :   ```Linear(in_features=2048, out_features=512) Linear(in_features=512, out_features=133)```   
 with ReLU activations between the linears.        
 
+#### Optimizer and loss function :   
+```
+* Used both CrossEntropyLoss() and NLLLoss()    
+* Used SGD and Adam
+```     
 ![p12.png](/Images/p12.png)                       
 # Some graphics of data augmentation used :      
 * Augmentation used :      
