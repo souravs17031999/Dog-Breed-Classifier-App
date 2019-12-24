@@ -122,9 +122,12 @@ transforms.RandomHorizontalFlip()
 ![p13.JPG](/Images/p13.JPG)                         
 
 # Finally some examples/results :               
+![p15.JPG](/Images/p15.JPG)
+![p16.JPG](/Images/p16.JPG)                         
+![p17.JPG](/Images/p17.JPG)                         
+![p18.JPG](/Images/p18.JPG)                         
+
 ![p14.JPG](/Images/p14.JPG)                         
-
-
 # Getting started :     
 * For getting started locally on your own system, [click here](#).
 
