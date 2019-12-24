@@ -119,6 +119,7 @@ with ReLU activations between the linears.
 * [Check out the complete source code including training and testing codes](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.ipynb)     
 * [If you just want the raw jupyter notebook, check out report here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.html)    
 * [Want sample images for testing, download here](#)    
+* [Want pre trained model weights, download here](#)    
 
 # Links to references for more detailed learning :     
 * [Face recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
