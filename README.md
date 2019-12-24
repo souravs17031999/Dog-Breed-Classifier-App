@@ -109,7 +109,8 @@ with ReLU activations between the linears.
 ![p12.png](/Images/p12.png)                       
 # Some graphics of data augmentation used :      
 * Augmentation used :      
-```transforms.RandomRotation(10),       
+```   
+transforms.RandomRotation(10),       
 transforms.RandomResizedCrop(224),      
 transforms.RandomHorizontalFlip()     
 ```      
