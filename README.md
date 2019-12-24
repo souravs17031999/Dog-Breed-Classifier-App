@@ -106,6 +106,11 @@ We can this here using two different approaches :
 * Then i replaced last layer of this architechture by fully connected layer containing two sub linear layers as follows :   ```Linear(in_features=2048, out_features=512) Linear(in_features=512, out_features=133)```   
 with ReLU activations between the linears.        
 
+#### Optimizer and loss function :   
+```
+* Used both CrossEntropyLoss() and NLLLoss()    
+* Used SGD and Adam
+```     
 ![p12.png](/Images/p12.png)                       
 # Some graphics of data augmentation used :      
 * Augmentation used :      
@@ -117,9 +122,12 @@ transforms.RandomHorizontalFlip()
 ![p13.JPG](/Images/p13.JPG)                         
 
 # Finally some examples/results :               
+![p15.JPG](/Images/p15.JPG)
+![p16.JPG](/Images/p16.JPG)                         
+![p17.JPG](/Images/p17.JPG)                         
+![p18.JPG](/Images/p18.JPG)                         
+
 ![p14.JPG](/Images/p14.JPG)                         
-
-
 # Getting started :     
 * For getting started locally on your own system, [click here](#).
 
