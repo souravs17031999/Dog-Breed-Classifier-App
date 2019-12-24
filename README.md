@@ -69,7 +69,7 @@ Then, a histogram of 256 bin is constructed from the final output lbp pattern im
 
 # Dog Face detector :       
 
-* Here also, we can use same above detectors.        
+* Here also, we can use above detectors mainly deep learning based like VGG16, ResNet50 etc.             
 
 ### Some examples :     
 ![p11.JPG](/Images/p11.JPG)                      
@@ -117,6 +117,7 @@ transforms.RandomHorizontalFlip()
 ![p13.JPG](/Images/p13.JPG)                         
 
 # Finally some examples/results :               
+![p14.JPG](/Images/p14.JPG)                         
 
 
 # Getting started :     
