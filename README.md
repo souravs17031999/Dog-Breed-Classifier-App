@@ -97,11 +97,37 @@ We can this here using two different approaches :
   (dropout): Dropout(p=0.5, inplace=False)       
 ```
 
-#### Pre trained ResNet50 model :    
+#### Pre trained [ResNet50](https://pytorch.org/docs/stable/torchvision/models.html#torchvision.models.resnet50) model :    
 (Reasons of choosing this model has been included in the notebook itself)     
 * This architechture contains **_(conv1)_** as first convolutional layer containing in channels as 3 which is due to **_RGB input tensor_** , **_(bn1)_** as batch normalization layer, followed by **_ReLU_** and **_MaxPooling_** and then it contains 4 main layers named **_layer1_**, **_layer2_**, **_layer3_** and **_layer4_** which contains further sub layers of convolution followed by **_batchnorm_** followed by **_relu_** followed by **_maxpooling_** , and then finally fc.   
 * **ReLU** activation is used as it's the most proven activation function for classification problems as it introduces good and right amount of non linearity with less chances of vanishing gradient problem !        
 * **Batch normalization** helped in making the network more stable and learning faster thereby faster convergence.     
 * **Maxpooling** helped in downsampling high number of parameters created by producing higher dimensional feature maps after convolution operation and thus selecting only relevant features from the high dimensioned feature matrix.       
 * Then i replaced last layer of this architechture by fully connected layer containing two sub linear layers as follows :   ```Linear(in_features=2048, out_features=512) Linear(in_features=512, out_features=133)```   
-with ReLU activations between the linears.     
+with ReLU activations between the linears.        
+
+![p12.png](/Images/p12.png)                       
+# Some graphics of data augmentation used :      
+
+# Finally some examples/results :               
+
+
+# Getting started :     
+* For getting started locally on your own system, [click here](#).
+
+# Navigating Project : 
+* [Check out the complete source code including training and testing codes](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.ipynb)     
+* [If you just want the raw jupyter notebook, check out report here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.html)    
+* [Want sample images for testing, download here](#)    
+
+# Links to references for more detailed learning :     
+* [Face recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+* [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+* [Gradient descent](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-gradient-descent-intuition-e5bde385078?source=---------11------------------)
+* [Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8?source=---------10------------------)
+* [Data augmentation](https://medium.com/secure-and-private-ai-writing-challenge/data-augmentation-increases-accuracy-of-your-model-but-how-aa1913468722?source=---------6------------------)
+* [Pytorch docs](https://pytorch.org/docs/stable/index.html)
+* [Udacity course Deep learning ND]()     
+       
+    
+⭐️ this Project if you liked it !
