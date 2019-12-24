@@ -129,14 +129,14 @@ transforms.RandomHorizontalFlip()
 
 ![p14.JPG](/Images/p14.JPG)                         
 # Getting started :     
-* For getting started locally on your own system, [click here](#).
+* For getting started locally on your own system, [click here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/getting_started.md).
 
 # Navigating Project : 
 * [Check out the complete source code including training and testing codes](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.ipynb)     
 * [If you just want the raw jupyter notebook, check out report here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/dog_app.html)        
 * [For checking deep inside model parameters and shapes, click here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/summary.txt)      
-* [Want sample images for testing, download here](#)    
-* [Want pre trained model weights, download here](#)    
+* [Want sample images for testing, download here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/tree/master/Images)    
+* [Want pre trained model weights, download here](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/getting_started.md)    
 
 # Links to references for more detailed learning :     
 * [Face recognition](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
@@ -145,7 +145,7 @@ transforms.RandomHorizontalFlip()
 * [Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8?source=---------10------------------)
 * [Data augmentation](https://medium.com/secure-and-private-ai-writing-challenge/data-augmentation-increases-accuracy-of-your-model-but-how-aa1913468722?source=---------6------------------)
 * [Pytorch docs](https://pytorch.org/docs/stable/index.html)
-* [Udacity course Deep learning ND]()     
+* [Udacity course Deep learning ND](https://www.udacity.com/course/deep-learning-nanodegree--nd101)     
        
     
 ⭐️ this Project if you liked it !
