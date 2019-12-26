@@ -180,17 +180,4 @@ def detectAndDisplay():
     cv2.destroyAllWindows()
 if __name__ == '__main__':
     detectAndDisplay()
-    # if len(sys.argv) > 1:
-    #     path = sys.argv[1]
-    #     model_transfer = load_model('model_transfer.pt')
-    #     print("Model loaded Succesfully")
-    #     test_transforms = torchvision.transforms.Compose([
-    #         transforms.Resize(256),
-    #         transforms.CenterCrop(224),
-    #         transforms.ToTensor(),
-    #         transforms.Normalize([0.485, 0.456, 0.406],[0.229, 0.224, 0.225])
-    #     ])
-    #     run_app(path, model_transfer, path, test_transforms)
-    #     print("Thanks for using our system !")
-    # else:
-    #     print('Path of image not supplied , please supply in form of actual path from terminal !')
+    
