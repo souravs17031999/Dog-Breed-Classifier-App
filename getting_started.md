@@ -1,4 +1,3 @@
-(In progress... , for now you can only test classification algorithm from this part of documentation but recognition/detection documentation part is yet to be completed)     
 ## Installation :     
 Tip : Please make sure to install all dependencies from [requirements.txt](https://github.com/souravs17031999/Dog-Breed-Classifier-App/blob/master/requirements.txt).       
 Grab a cup of coffee as these will take some time !      
